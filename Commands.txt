@@ -1,7 +1,12 @@
-������ �������� ������:
+Список решения наиболее частых проблем
 
 1. no such table: django_sessions
     py manage.py migrate --run-syncdb
-2. ������ ��������
-    py manage.py makemigrations vote
-    py manage.py migrate vote
+
+2. Не проходит миграция
+    py manage.py makemigrations main
+    py manage.py migrate main
+
+3. Ругается на модели
+    Удалить /main/migrations
+    СМ п.2, затем п.1
