@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+	{{ main_header }}<br>
+	
+	{% if user.is_authenticated %}
+		Вы зашли как <a href="/accounts/user/">{{ user }}</a><br>
+		<a href="/accounts/sign_out/">Нажмите, чтобы выйти</a>
+	{% else %}
+		Вы не вошли в аккаунт<br>
+		<a href="/accounts/sign_up/">Создать пользователя</a><br>
+		<a href="/accounts/sign_in/">Войти в аккаунт</a>
+	{% endif %}
+	
+{% endblock content %}

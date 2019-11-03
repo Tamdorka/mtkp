@@ -1,0 +1,7 @@
+сборка полезных команд:
+
+1. no such table: django_sessions
+    py manage.py migrate --run-syncdb
+2. ошибки датабазы
+    py manage.py makemigrations vote
+    py manage.py migrate vote
