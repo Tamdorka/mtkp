@@ -6,3 +6,6 @@ https://github.com/TheBrushCoder/mtkp
 
 Страница в Trello
 https://trello.com/user67733547
+
+Сервер Discord
+https://discord.gg/s6yFu53
